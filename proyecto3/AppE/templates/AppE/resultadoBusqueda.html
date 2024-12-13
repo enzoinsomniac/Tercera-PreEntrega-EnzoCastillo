@@ -6,7 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    
+    {% extends 'AppE/padre.html' %}
+    {% load static %}
+    {% block ContenidoQueCambia  %}
+
     
 
     {% if marca %}
@@ -17,6 +20,6 @@
     {% endfor %}
     </ul>
     {% endif %}
-
+    {% endblock %}
 </body>
 </html>

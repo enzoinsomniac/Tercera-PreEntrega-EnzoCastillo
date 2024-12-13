@@ -6,15 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    
+    {% extends 'AppE/padre.html' %}
+    {% load static %}
+    {% block ContenidoQueCambia  %}
+
+
     <form action="" method="POST">
         {% csrf_token %}
     
             {{ miFormulario.as_table }}
         
         <input type="submit" value="enviar">
-    </form>
+    
 
+
+    {% endblock %}
+
+    
 
 
 </body>

@@ -1,0 +1,5 @@
+admin dJANGO SUPERUSER  PROYECTO3
+
+
+USUARIO:admin1
+CONTRASEÑA:user1

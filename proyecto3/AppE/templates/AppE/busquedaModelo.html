@@ -6,11 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    
+    {% extends 'AppE/padre.html' %}
+    {% load static %}
+    {% block ContenidoQueCambia  %}
+
+
     <form action="/buscar/" method="GET">
         
-    <input type="string" name="modelo" id="modelo">
-    <input type="submit" value="Buscar">
+        <input type="string" name="modelo" id="modelo">
+        <input type="submit" value="Buscar">
+    
+    
+
+
+        {% endblock %}
+
 
 
 
